@@ -1,10 +1,182 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,800&family=Staatliches&display=swap');
+
+* {
+    margin:0px;
+    padding: 0px;
 }
 
-/****************************Fonts*/
+
+
+
+
+/************************************** Fonts*/
+
+h1 {
+    /*font-family: 'Staatliches', cursive;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+
+}
+
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
 
 .protext {
     font-size: 2em;
     line-height: 1.6em;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+#headingwhat {
+    color: #155399;
+}
+
+#headinghow {
+    color: #57A5FF;
+}
+
+#headinghow {
+    color: #57A5FF;
+}
+
+.headingabout {
+    color: #3789E6;
+}
+
+#headingcontact {
+    color: #996406;
+}
+
+#headingneed {
+    color: #E6A737;
+}
+
+/************************************** Navigation*/
+
+.nav {
+    background-color: #fafafa;
+    width:100%;
+    padding: 10px 0px;
+}
+
+.nav a {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+
+#navwhat {
+    color: #155399;
+}
+
+#navhow {
+    color: #57A5FF;
+}
+
+#navabout {
+    color: #3789E6;
+}
+
+#navcontact {
+    color: #996406;
+}
+
+#navneed {
+    color: #E6A737;
+}
+
+/************************************** Hero*/
+
+#hero {
+    background-color: black;
+    height: 500px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.usp-text {
+    color: #ffffff;
+    text-align: left;
+    padding-top: 150px;
+    margin: auto;
+    width: 50%;
+}
+
+.usp-text h2{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.usp-text h3{
+    font-size: 17px;
+    line-height: 17px;
+}
+
+.usp-text button {
+    font-size: 12px;
+    font-weight: 800;
+    padding: 5px 5px;
+    border: none;
+    margin: 10px 10px 0px 0px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.usp-text button:hover {
+    background-color: #996406;
+    color: white;
+    text-decoration: underline;
+}
+
+/************************************** Section: What i do*/
+
+#whatido {
+    padding: 50px 0px;
+}
+/************************************** Section: How I work*/
+
+#howiwork {
+    background-color: #ededeb;
+    padding: 50px 0px;
+}
+/************************************** Section: About*/
+
+#about {
+    padding: 50px 0px;
+}
+/************************************** Section: Contact*/
+
+#contact {
+    padding: 50px 0px;
+    background-color: black;
+    color: white;
+}
+
+/************************************** Section: Need help*/
+#needhelp {
+    padding: 50px 0px;
 }
