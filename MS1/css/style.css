@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,800&family=Staatliches&display=swap');
 
 * {
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding:0;
 }
 
 
 
+.content {
+    margin: 0px 10px 0px 10px;
+}
 
 
 /************************************** Fonts*/
@@ -35,9 +38,10 @@ h3 {
 }
 
 
+
 .protext {
-    font-size: 2em;
-    line-height: 1.6em;
+    font-size: 25px;
+    padding-top: 50px;
 }
 
 p {
@@ -67,6 +71,7 @@ p {
 
 #headingneed {
     color: #E6A737;
+    text-align: center;
 }
 
 /************************************** Navigation*/
@@ -79,8 +84,8 @@ p {
 
 .nav a {
     color: black;
-    font-size: 1.5em;
-    font-weight: 900;
+    font-size: 1.7em;
+    font-weight: 800;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
@@ -110,19 +115,15 @@ p {
 
 #hero {
     background-color: black;
-    height: 500px;
-}
-
-.line-through {
-    text-decoration: line-through;
+    height: 400px;
 }
 
 .usp-text {
     color: #ffffff;
     text-align: left;
-    padding-top: 150px;
     margin: auto;
-    width: 50%;
+    padding: 100px 0px 100px 0px;
+    max-width: 50%;
 }
 
 .usp-text h2{
@@ -141,7 +142,6 @@ p {
     padding: 5px 5px;
     border: none;
     margin: 10px 10px 0px 0px;
-    font-weight: 800;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
@@ -159,24 +159,119 @@ p {
 }
 /************************************** Section: How I work*/
 
+
 #howiwork {
     background-color: #ededeb;
     padding: 50px 0px;
+}
+
+#howiwork img {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+
+#howiwork p {
+    font-size: 25px;
 }
 /************************************** Section: About*/
 
 #about {
     padding: 50px 0px;
 }
-/************************************** Section: Contact*/
+
+.pabout {
+    font-size: 25px;
+}
+
+/************************************** Section: About/Timeline */
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px dotted #57A5FF;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 2.5em;
+    display: block;
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #57A5FF; 
+}
+
+.history-items {
+    margin: 20px 0px;
+}
+
+/************************************** Section: Contact */
 
 #contact {
     padding: 50px 0px;
     background-color: black;
     color: white;
 }
+#contact h3 {
+    font-size: 15px;
+    line-height: 25px;
+}
 
+#contact a {
+    color: white;
+}
+
+.contact-form {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 17px;
+
+}
+
+.contact-form:hover {
+    border: 2px solid #E6A737;
+}
+
+#name {
+    width: 45%;
+    margin-right: 10%;
+}
+
+#email {
+    width: 45%;
+}
 /************************************** Section: Need help*/
 #needhelp {
     padding: 50px 0px;
 }
+
+.pneed {
+    margin: auto;
+    width: 75%;
+    font-size: 25px;
+    padding-bottom: 30px;
+
+}
+
