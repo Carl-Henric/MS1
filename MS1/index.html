@@ -9,28 +9,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav id="nav"> <!--Menu-->
-        <ul class="nav justify-content-center">
-             <li class="nav-item">
-                <a class="nav-link logo" href="index.html"><i class="fas fa-user-astronaut"></i> Carl-Henric Grip</a>
-            </li>
-             <li class="nav-item">
-                <a class="nav-link" id="navwhat" href="#whatido">What i do</a>
-            </li>
-             <li class="nav-item">
+    <section id="navigation">  <!--Navigation--> 
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-tools"></i> Carl-Henric Grip</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" id="navwhat" href="#whatido">What I do <span class="sr-only">(current)</span></a>
                 <a class="nav-link" id="navhow" href="#howiwork">How I work</a>
-            </li>
-             <li class="nav-item">
                 <a class="nav-link" id="navabout" href="#about">About</a>
-            </li>
-             <li class="nav-item">
                 <a class="nav-link" id="navcontact" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" id="navneed" href="#needhelp">Need help?</a>
-            </li>
-        </ul>
-    </nav>
+                </div>
+            </div>
+        </nav>
+    </section> 
     <section id="hero"> <!--Section: Hero-->
         <div class="usp-text">
             <h3>Marketing & Web development</h3>
@@ -163,8 +158,8 @@
                     </div>
                     <div class="col-sm">
                             <form>
-                            <input class="contact-form" type="text" value="name" id="name" placeholder="Name"><input class="contact-form" type="email" value="email" id="email" placeholder="E-mail Adress">
-                            <input class="contact-form" type="text" value="company" id="company" placeholder="Company Name"><br/>
+                            <input class="contact-form" type="text" value="Name" id="contactname" placeholder="Name"><input class="contact-form" type="email" value="E-mail" id="email" placeholder="E-mail Adress">
+                            <input class="contact-form" type="text" value="company" id="Company" placeholder="Company Name"><br/>
                             <textarea class="contact-form" name="textarea" rows="3" id="textarea" placeholder="Write your message"></textarea><br/>
                             <input class="contact-form" type="submit" value="submit">  
                             </form>
@@ -179,7 +174,8 @@
                 <h2 id="headingneed">Need help?</h2>
                 <p class="pneed">
                 Can´t remember how to update the text on in your footer? or to change the slider pictures? no worry, I will help you.<br/>
-                Just fill in the form right under this text I will help you. Describe your problem and will respond immediately. 
+                Just fill in the form right under this text I will help you. <br/><br/>
+                Describe your problem and I will respond immediately. 
                 </p>
                     <div class="row">
                         <div class="col-sm choices">
@@ -203,6 +199,8 @@
                             </form>
                         </div>
                         <div class="col-sm">
+                            <input class="contact-form" type="text" value="Name" id="name" placeholder="Name">
+                            <input class="contact-form" type="email" value="E-Mail" id="emailhelp" placeholder="E-mail">
                             <textarea name="textarea" rows="10" id="textareahelp" placeholder="Message" class="form-control"></textarea><br/>
                             <input type="submit" id="submit" class="btn btn-primary">
                         </div>

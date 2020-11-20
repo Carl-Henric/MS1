@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,800&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,800&display=swap');
 
 * {
     margin:0;
@@ -24,14 +24,14 @@ h1 {
 
 h2 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 h3 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 30px;
@@ -76,17 +76,12 @@ p {
 
 /************************************** Navigation*/
 
-.nav {
-    background-color: #fafafa;
-    width:100%;
-    padding: 10px 0px;
-}
 
-.nav a {
-    color: black;
-    font-size: 1.7em;
-    font-weight: 800;
+
+.navbar {
     font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
@@ -111,18 +106,19 @@ p {
     color: #E6A737;
 }
 
+
 /************************************** Hero*/
 
 #hero {
     background-color: black;
-    height: 400px;
+    height: 500px;
 }
 
 .usp-text {
     color: #ffffff;
     text-align: left;
     margin: auto;
-    padding: 100px 0px 100px 0px;
+    padding: 200px 0px 200px 0px;
     max-width: 50%;
 }
 
@@ -254,7 +250,7 @@ p {
     border: 2px solid #E6A737;
 }
 
-#name {
+#contactname {
     width: 45%;
     margin-right: 10%;
 }
