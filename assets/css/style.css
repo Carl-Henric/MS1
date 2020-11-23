@@ -1,3 +1,5 @@
+/************************************** General*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,800&display=swap');
 
 * {
@@ -5,45 +7,33 @@
     padding:0;
 }
 
-
 .content {
     margin: 0px 10px 0px 10px;
 }
 
-
 /************************************** Fonts*/
 
-.subheroheading {
-    font-size: 1.3em;
-    margin: 10px 0px 10px 0px;
-    color: gray;
-}
-
 h1 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
 
 
 h2 {
-    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 22px;
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
-
-
 #prop {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 50px;
 }
 
@@ -73,19 +63,39 @@ p {
 }
 
 .mediump {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+.usp-text {
+    color: #ffffff;
+    text-align: left;
+    margin: auto;
+    padding: 200px 0px;
+    max-width: 50%;
+}
+
+.usp-text h2{
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.usp-text h3{
+    font-size: 20px;
+    line-height: 23px;
+}
 /************************************** Navigation*/
 
 .navbar {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 800;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
 
 .nav-link:hover {
     text-decoration: underline;
@@ -93,7 +103,13 @@ body {
 }
 
 .fa-tools:hover {
-    transform: rotate(90deg);
+    transform: rotate(45deg);
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 #navwhat {
@@ -119,31 +135,13 @@ body {
     height: 500px;
 }
 
-.usp-text {
-    color: #ffffff;
-    text-align: left;
-    margin: auto;
-    padding: 150px 0px;
-    max-width: 50%;
-}
-
-.usp-text h2{
-    font-size: 25px;
-    line-height: 25px;
-}
-
-.usp-text h3{
-    font-size: 17px;
-    line-height: 17px;
-}
-
 .button {
-    font-size: 15px;
+    font-size: 17px;
     background-color: #E6A737;
     font-weight: 800;
-    padding: 5px 5px;
+    padding: 5px 5px 5px 5px;
     border: none;
-    margin: 10px 20px 0px 0px;
+    margin: 10px 10px 0px 0px;
     text-transform: uppercase;
     color: white;
 }
@@ -158,6 +156,7 @@ body {
 
 #whatido {
     padding: 50px 0px;
+    scroll-margin-top: 3.85em;
 }
 /************************************** Section: How I work*/
 
@@ -165,6 +164,7 @@ body {
 #howiwork {
     background-color: #ededeb;
     padding: 50px 0px;
+    scroll-margin-top: 3.85em;
 }
 
 #howiwork img {
@@ -176,6 +176,7 @@ body {
 
 #about {
     padding: 50px 0px;
+    scroll-margin-top: 3.85em;
 }
 
 
@@ -225,6 +226,7 @@ body {
     padding: 50px 0px;
     background-color: black;
     color: white;
+    scroll-margin-top: 3.85em;
 }
 #contact h3 {
     font-size: 18px;
@@ -275,12 +277,24 @@ body {
     }
 
     .usp-text {
-    padding: 100px 0px;
+    padding: 150px 0px;
 }
 
     #contact h3 {
         font-size: 13px;
         line-height: 25px;
+    }
+
+    .usp-text h2 {
+        font-size: 20px;
+    }
+
+    .usp-text h3 {
+        font-size: 15px;
+    }
+
+    .button {
+        font-size: 12px;
     }
 
 }
