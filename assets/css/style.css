@@ -45,7 +45,7 @@ h3 {
 
 
 
-.protext {
+#prop {
     font-size: 25px;
     padding-top: 50px;
 }
@@ -72,14 +72,13 @@ p {
 }
 
 #headingcontact {
-    color: #996406;
-}
-
-#headingneed {
     color: #E6A737;
-    text-align: center;
 }
 
+
+.mediump {
+    font-size: 25px;
+}
 /************************************** Navigation*/
 
 
@@ -105,12 +104,9 @@ p {
 }
 
 #navcontact {
-    color: #996406;
-}
-
-#navneed {
     color: #E6A737;
 }
+
 
 
 /************************************** Hero*/
@@ -124,7 +120,7 @@ p {
     color: #ffffff;
     text-align: left;
     margin: auto;
-    padding: 200px 0px 200px 0px;
+    padding: 150px 0px;
     max-width: 50%;
 }
 
@@ -138,17 +134,25 @@ p {
     line-height: 17px;
 }
 
-.usp-text button {
-    font-size: 12px;
+.button {
+    font-size: 15px;
+    background-color: #E6A737;
     font-weight: 800;
     padding: 5px 5px;
     border: none;
-    margin: 10px 10px 0px 0px;
+    margin: 10px 20px 0px 0px;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+    color: white;
 }
 
-.usp-text button:hover {
+@media screen and (max-width: 600px) {
+    .button {
+           display: block;
+    }
+}
+
+.button:hover {
     background-color: #996406;
     color: white;
     text-decoration: underline;
@@ -172,20 +176,12 @@ p {
     width: 100%;
 }
 
-
-
-#howiwork p {
-    font-size: 25px;
-}
 /************************************** Section: About*/
 
 #about {
     padding: 50px 0px;
 }
 
-.pabout {
-    font-size: 25px;
-}
 
 /************************************** Section: About/Timeline */
 
@@ -249,6 +245,8 @@ p {
     margin-bottom: 15px;
     padding: 5px;
     font-size: 17px;
+    font-weight: 600;
+    border: 2px solid white;
 
 }
 
@@ -264,15 +262,8 @@ p {
 #email {
     width: 45%;
 }
-/************************************** Section: Need help*/
-#needhelp {
-    padding: 50px 0px;
-}
 
-.pneed {
-    margin: auto;
-    width: 75%;
-    font-size: 25px;
-    padding-bottom: 30px;
-
+#submit {
+    background-color: #E6A737;
+    border: 0px;
 }

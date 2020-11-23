@@ -1,45 +1,51 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+## UX
+### Project Goals
+Show off my skills and attract future employers with a modern and trustworthy website built in html, css and bootstrap. A website that will talk for itself and not just empty words. 
 
-Welcome Carl-Henric,
+### User Goals
+Get enough information to hire me for employment or projects. 
+Send a form or e-mail. 
+Get a nice overview of my skills to recommend me. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### User Stories
+    As a user/employer, I want the site to talk for itself when it comes to skills and communication. 
+    As a user/employer , I want to get served short handed information that quickly explains what the site owner can and how. 
+    As a user/employer, I want it to be very easy to get in touch with the site owner. 
+    As a user, I want the site to load fast and easy to navigate no matter what device I use. 
+### Site Owner Goals
+As s site owner, i want to get in touch with employers  
+As a site owner, I want to show off my whole spectrum of skills in a simple and easy to understand way. 
+As a site owner, I want to encourage my visitors to contact me. 
+As a site owner, I want to 
+### User Requirements and Expectations
+#### User requirements:
+Understand the information architecture on the site.
+Directly understand how to navigate on the site.
+A fully functional contact form with attachment function.
+Access the sites content without friction on both desktop and mobile. 
 
-## Gitpod Reminders
+#### User expectations: 
+Get a great overall overview of the site owners skills both visually and technical. 
+A non-bugging site no matter what device the user is using. 
+Clear and professional impression. 
+### Design Choices
+My main focus with this site is that I want it to reflect me both as a professional and person. I want the design to clearly communicate my visual and technical skills. I want the impression to be serious but almost too simple with a technical twist. The design is based on mobile first and fast loading times. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Fonts
+I will use fonts from Google fonts because they are flexible and reliable. My main focus is mobile first and I want the fonts to be crystal clear on mobile devices primary. I want it to be a contrast between the fonts I use, one playful and heavy for headings and a Sans serif for content text with great readability.. 
+### Icons
+I will use fonts from Fontawesome because it makes the job great. Fully functional and clear. 
+### Colours
+I will mainly work with two different colours in two different shades, except from black/white. Color codes:
 
-`python3 -m http.server`
+## Wireframe
+The wireframe is made in Balsamico (link) both for mobile and desktop. 
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Technologies
+## Features
+### Features that have been developed
+### Features that will be implemented in the future
+## Testing
+## Bugs
+## Deployment
+## Credit
