@@ -6,7 +6,6 @@
 }
 
 
-
 .content {
     margin: 0px 10px 0px 10px;
 }
@@ -21,10 +20,8 @@
 }
 
 h1 {
-    /*font-family: 'Staatliches', cursive;*/
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-
 }
 
 
@@ -75,21 +72,29 @@ p {
     color: #E6A737;
 }
 
-
 .mediump {
     font-size: 25px;
 }
+
+body {
+    font-family: font-family: 'Raleway', sans-serif;
+}
 /************************************** Navigation*/
 
-
-
 .navbar {
-    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+    
+}
+
+.fa-tools:hover {
+    transform: rotate(90deg);
+}
 
 #navwhat {
     color: #155399;
@@ -106,8 +111,6 @@ p {
 #navcontact {
     color: #E6A737;
 }
-
-
 
 /************************************** Hero*/
 
@@ -141,15 +144,8 @@ p {
     padding: 5px 5px;
     border: none;
     margin: 10px 20px 0px 0px;
-    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     color: white;
-}
-
-@media screen and (max-width: 600px) {
-    .button {
-           display: block;
-    }
 }
 
 .button:hover {
@@ -231,8 +227,8 @@ p {
     color: white;
 }
 #contact h3 {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 35px;
 }
 
 #contact a {
@@ -241,7 +237,6 @@ p {
 
 .contact-form {
     width: 100%;
-    font-family: 'Raleway', sans-serif;
     margin-bottom: 15px;
     padding: 5px;
     font-size: 17px;
@@ -266,4 +261,26 @@ p {
 #submit {
     background-color: #E6A737;
     border: 0px;
+}
+
+#submit:hover {
+    background-color: green;
+}
+
+/************************************** Respoinsive  */
+
+@media screen and (max-width: 600px) {
+    .button {
+           display: block;
+    }
+
+    .usp-text {
+    padding: 100px 0px;
+}
+
+    #contact h3 {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
 }
