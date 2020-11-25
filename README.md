@@ -34,7 +34,7 @@ Show off my skills and attract future employers with a modern and trustworthy we
 
 ---
 ### Design Choices
-My main focus with this site is that I want it to reflect me both as a professional and person. I want the design to clearly communicate my visual and technical skills. I want the impression to be serious but almost too simple with a technical twist. The design is based on mobile first and fast loading times. 
+My main focus with this site is that I want it to reflect me both as a professional and person. I want the design to clearly communicate my visual and technical skills. I want the impression to be serious but almost too simple with a technical twist. The design is based on mobile first and fast loading times. I wanted it to be a logical connection with the navigation and the headings. 
 
 ### Fonts
 I will use fonts from Google fonts because they are flexible and reliable. My main focus is mobile first and I want the fonts to be crystal clear on mobile devices primary. I want it to be a contrast between the fonts I use, one playful and heavy for headings and a lighter for content text with great readability. 
@@ -44,7 +44,7 @@ I have been using Raleway in a bold (800,900) variant for all headings and the r
 ### Icons
 Icons are from [Fontawesome](https://fontawesome.com/) via their cdn-kit. It's kept very simple and sparingly just to not take focus from the content itself. 
 ### Colours
-**Fonts**: The colors that have been used in fonts are three different shades of blue (#155399;#57A5FF;#3789E6;) and light-orange (#E6A737;). The orange colour is used for the contact section just to make it even more visible. 
+**Fonts**: The colors that have been used in fonts are three different shades of blue (#155399;#57A5FF;#3789E6;) and light-orange (#E6A737;). The orange colour is used for the contact section just to make it even more visible. All navigation items have the same colour as the heading they link to. 
 
 **Backgrounds**: For the different sections there are three different colours: black, white and beige (#ededeb).  Focus is on readability and make the content contrast to the background in a nice looking way.
 
@@ -84,11 +84,11 @@ The wireframes are made in [Balsamico](https://balsamiq.com/) both for mobile an
 ### Features that will be implemented in the future:
 - Implement calendly with their own API so it's easy to book a meeting directly on the site. 
 - Real showcase projects. 	
-- Make menu close after click on mobile.
+- Make the menu close after click on mobile.
 - Add a "Need help" section where you can order updates on your homepage with a form. 
 ---
 ## Testing
-Google Devtools has been used to test the site on the following devices:
+Google Devtools have been used to test the site on the following devices:
 - Moto G4
 - Galaxy S5
 - Pixel 2
@@ -119,7 +119,7 @@ The navigation is tested in Google Devtools devices and different browsers and w
 **Responsive testing & design**
 
 For responsive testing on mobile devices, Google devtools and Lambdatest have been used. 
-All devices/screens that Google devtools provide has shown excellent results. 
+All devices/screens that Google devtools provide have shown excellent results. 
 
 [Lambdatest](https://app.lambdatest.com/) has been used to ensure that it looks correct on all 56 screens that they provide. I find Lambdatest as a great complement to Google devtools when it comes to testing it on mobile devices. 
 
@@ -136,7 +136,7 @@ For testing the **HTML** and **CSS** [W3C](https://validator.w3.org/) has been u
  - - There are no errors or bugs in the site. 
 
 - *As a user/employer, I want to get served short handed information that quickly explains what the site owner can and how.* 
-- - The information is very shorthanded on the frst screen you see, then it explaines more and more among the scroll. 
+- - The information is very short handed on the first screen you see, then it explains more and more among the scroll. 
 
 - *As a user/employer, I want it to be very easy to get in touch with the site owner.* 
 - - On the first screen there is a Contact button. 
@@ -145,7 +145,7 @@ For testing the **HTML** and **CSS** [W3C](https://validator.w3.org/) has been u
 - - The menu is very clear and easy to use. 
 
 #### Bugs
-Among this project, the navigation has been the main problem.  
+Among this project, the navigation bar has been the main problem.  
 
 - **Fixed navigation**: When using fixed navigation combinated with section anchors there is a problem to position the scroll to the exactly correct position. This has been challenging but I find the solution [here](https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/). 
 
@@ -153,25 +153,25 @@ Among this project, the navigation has been the main problem.
 ## Deployment
 This project is made with Gitpod, using Git and hosting on Github. 
 **How I deploy**
-1. Logged in on [Github](https://github.com/).
+1. Got to [Github](https://github.com/) and log in.
 2. Then go to [https://github.com/Carl-Henric/MS1](https://github.com/Carl-Henric/MS1)
-3. Clicked Settings in the tab menu above the content area. 
-4. Scrolled to GitHub pages-section.
+3. Click Settings in the tab menu above the content area.
+4. Scroll to GitHub pages-section.
 5. Then I choose Master Branch from the source dropdown menu.
-6. Clicked to confirm my selection, and then its live. 
+6. Click to confirm my selection, and then it´s live. 
  
 **How to run this project locally instead**
-1. How to clone this project from Github:
-2. Go to [https://github.com/Carl-Henric/MS1(]https://github.com/Carl-Henric/MS1) 
-3. Click the “Code”-button and copy the http-adress. 
-4. Open Gitpod and open a new terminal, terminal → new terminal. 
-5. In the terminal, paste the code and press enter. 
+ How to clone this project from Github:
+1. Go to [https://github.com/Carl-Henric/MS1](https://github.com/Carl-Henric/MS1) 
+2. Click the “Code”-button and copy the http-address. 
+3. Open Gitpod and open a new terminal, terminal → new terminal. 
+4. In the terminal, paste the code and press enter. 
 ---
 ## Credit
 
 #### Images
 
-All the images that´s been used is from [Pexels](https://www.pexels.com/).
+All the images that´s been used are from [Pexels](https://www.pexels.com/).
 - [https://www.pexels.com/photo/be-brilliant-neon-light-2002719/](https://www.pexels.com/photo/be-brilliant-neon-light-2002719/)
 - [https://www.pexels.com/photo/crop-unrecognizable-doctor-with-vision-test-device-3846021/](https://www.pexels.com/photo/crop-unrecognizable-doctor-with-vision-test-device-3846021/)
 - [https://www.pexels.com/photo/photo-of-golden-cogwheel-on-black-background-3785927/](https://www.pexels.com/photo/photo-of-golden-cogwheel-on-black-background-3785927/)
