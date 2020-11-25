@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;0,700;0,900;1,800&display=swap');
 
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -78,15 +78,16 @@ body {
     max-width: 50%;
 }
 
-.usp-text h2{
+.usp-text h2 {
     font-size: 22px;
     line-height: 25px;
 }
 
-.usp-text h3{
+.usp-text h3 {
     font-size: 20px;
     line-height: 23px;
 }
+
 /************************************** Navigation*/
 
 .navbar {
@@ -99,7 +100,7 @@ body {
 
 .nav-link:hover {
     text-decoration: underline;
-    
+
 }
 
 .fa-tools:hover {
@@ -158,6 +159,7 @@ body {
     padding: 50px 0px;
     scroll-margin: 3.85em;
 }
+
 /************************************** Section: How I work*/
 
 
@@ -213,7 +215,7 @@ body {
     left: -6px;
     border-radius: 12px;
     content: '';
-    background: #57A5FF; 
+    background: #57A5FF;
 }
 
 .history-items {
@@ -228,6 +230,7 @@ body {
     color: white;
     scroll-margin: 3.85em;
 }
+
 #contact h3 {
     font-size: 18px;
     line-height: 35px;
@@ -272,13 +275,21 @@ body {
 /************************************** Respoinsive  */
 
 @media screen and (max-width: 600px) {
+    .navbar {
+        font-size: 17px;
+    }
+    
+    .navbar-brand {
+        font-size: 17px;
+    }
+    
     .button {
-           display: block;
+        display: block;
     }
 
     .usp-text {
-    padding: 150px 0px;
-}
+        padding: 150px 0px;
+    }
 
     #contact h3 {
         font-size: 13px;
