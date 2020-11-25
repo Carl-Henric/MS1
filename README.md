@@ -1,5 +1,5 @@
-
-# Project: My own resume page 
+![responsive](assets/images/responsive.png)
+# First Milestone project 
 #### *This project is a website to promote myself in a trustworthy and visual way. Focus on the process has been to make an easily digested impression of me that is pretty straight forward with both design and technology. The main reason of the visitor is to contact me so I can introduce myself more properly in a meeting.*
 ---
 ## UX
@@ -46,7 +46,7 @@ Icons are from [Fontawesome](https://fontawesome.com/) via their cdn-kit. It's k
 ### Colours
 **Fonts**: The colors that have been used in fonts are three different shades of blue (#155399;#57A5FF;#3789E6;) and light-orange (#E6A737;). The orange colour is used for the contact section just to make it even more visible. 
 
-**Backgrounds**: For the different sections there are three different colours: Black, white and beige (ededeb).  Focus is on readability and make the content contrast to the background in a nice looking way.
+**Backgrounds**: For the different sections there are three different colours: black, white and beige (#ededeb).  Focus is on readability and make the content contrast to the background in a nice looking way.
 
 ---
 ## Wireframe
@@ -58,9 +58,9 @@ The wireframes are made in [Balsamico](https://balsamiq.com/) both for mobile an
 
 ## Technologies used
 **Language**
-- [Html](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.)  For creating content and structure. 
+- [HTML5](https://en.wikipedia.org/wiki/HTML#:~:text=Hypertext%20Markup%20Language%20(HTML)%20is,scripting%20languages%20such%20as%20JavaScript.)  For building the site.  
 - [CSS](https://en.wikipedia.org/wiki/CSS) For styling the html to the actual design. 
-- [Javascript](https://en.wikipedia.org/wiki/JavaScript#:~:text=JavaScript%20(%2F%CB%88d%CA%92%C9%91%CB%90v,%2C%20and%20first%2Dclass%20functions.)  For making the mobile menu collapse with Bootstrap.  
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  For making the mobile menu collapse with Bootstrap.  
 
 **Tools & libraries**
 - [Bootstrap](https://getbootstrap.com/)  For navbar, columns and form. 
@@ -85,6 +85,7 @@ The wireframes are made in [Balsamico](https://balsamiq.com/) both for mobile an
 - Implement calendly with their own API so it's easy to book a meeting directly on the site. 
 - Real showcase projects. 	
 - Make menu close after click on mobile.
+- Add a "Need help" section where you can order updates on your homepage with a form. 
 ---
 ## Testing
 Google Devtools has been used to test the site on the following devices:
@@ -101,11 +102,11 @@ Google Devtools has been used to test the site on the following devices:
 - Surface Duo 
 - Galaxy Fold. 
 
-All testing has been made manually.
+All testing has been made manually and have also been tested on different computers and phones. 
 
 **Contact form**
 
-The contact form has been tested on both desktop and mobile devices and it works well, except the form is not sended. The Email field is required and it reacts when there is no “@” filled in. Tested in various browsers and devices. 
+The contact form has been tested on both desktop and mobile devices and it works well, except the form is not sended. The Email field is required and it reacts when there is no “@” filled in. 
 
 **Contact** 
 
@@ -177,11 +178,12 @@ All the images that´s been used is from [Pexels](https://www.pexels.com/).
 - [https://www.pexels.com/photo/man-standing-infront-of-white-board-1181345/](https://www.pexels.com/photo/man-standing-infront-of-white-board-1181345/)
 
 
-### Snippets that i used from others:
-- **Rotation:** https://www.w3schools.com/cssref/css3_pr_transform.asp
+#### Code inspiration/help
 
-- **Scroll margin top:** https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/
+- **[Rotation](https://www.w3schools.com/cssref/css3_pr_transform.asp)**
+
+- **[Scroll margin top](https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/)**
 
 - **Resume Timeline from Mini Project with Bootstrap 4-project on Code institute.**
 
-
+- **[Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)** 
